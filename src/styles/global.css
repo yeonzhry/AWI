@@ -1,0 +1,122 @@
+/* Auto-generated from Figma design tokens */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+/* 손글씨 폰트 (눈누 CDN) */
+@font-face {
+  font-family: 'SheLeeOkSun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/Her-Leeoksun.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ── Primitive (재료) ── */
+  --neutral-1: #f5f5f5;
+  --neutral-2: #e5e5e5;
+  --neutral-3: #cccccc;
+  --neutral-4: #b2b2b2;
+  --neutral-5: #999999;
+  --neutral-6: #808080;
+  --neutral-7: #666666;
+  --neutral-8: #4d4d4d;
+  --neutral-9: #333333;
+  --neutral-10: #121212;
+  --neutral-black: #000000;
+  --neutral-white: #ffffff;
+
+  --yellow-100: #fffef0;
+  --yellow-200: #fffabd;
+  --yellow-300: #fff68a;
+  --yellow-500: #f0dd00;
+  --yellow-600: #ccbc00;
+  --yellow-700: #998d00;
+  --yellow-400: #fff255;
+
+  --girl-1-1: #ebf8fc;
+  --girl-1-2: #d5eaef;
+  --girl-1-3: #c7dee2;
+  --girl-2-1: #f9dbd8;
+  --girl-2-2: #c4a5a2;
+  --girl-3-1: #161616;
+  --girl-3-2: #000000;
+
+  --skyblue-100: #f2fafd;
+  --skyblue-300: #bce8f5;
+  --skyblue-400: #90d8ee;
+  --skyblue-500: #64c9e8;
+  --skyblue-600: #21b1de;
+  --skyblue-700: #1b8eb1;
+  --skyblue-200: #ebf8fc;
+
+  /* ── Semantic (쓰임새) ── */
+  --bg-secondary: #343b3e;
+  --bg-primary: var(--neutral-1);
+
+  --cta-interactive: var(--yellow-400);
+
+  --text-primary: var(--neutral-10);
+  --text-secondary: var(--neutral-4);
+  --text-tertiary: var(--yellow-100);
+
+  --button-primary: var(--neutral-10);
+  --button-secondary: var(--skyblue-200);
+  --button-tertiary: var(--yellow-100);
+  --button-disabled: var(--neutral-5);
+
+  --surface-primary: var(--neutral-1);
+  --surface-dim: #12121299;
+  --surface-secondary: var(--skyblue-200);
+  --surface-hovered: var(--yellow-200);
+
+  --stroke-primary: var(--neutral-10);
+  --stroke-secondary: var(--neutral-1);
+  --stroke-tertiary: var(--neutral-5);
+
+  /* ── Gradient ── */
+  --gradient-bggradient: linear-gradient(180deg, #121212 0%, #343b3e 100%);
+
+  /* ── Typography ── */
+  --font-hero-regular-72: 400 72px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-hero-her-regular-72: 400 72px/1.2 'SheLeeOkSun', 'Pretendard', cursive;
+  --font-hero-bold-72: 700 72px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-title-regular-48: 400 48px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-title-bold-48: 700 48px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-subtitle-her-regular-32: 400 32px/1.4 'SheLeeOkSun', 'Pretendard', cursive;
+  --font-subtitle-regular-32: 400 32px/1.4 'Pretendard', system-ui, sans-serif;
+  --font-subtitle-bold-32: 700 32px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-headline-regular-24: 400 24px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-headline-her-regular-24: 400 24px/1.2 'SheLeeOkSun', 'Pretendard', cursive;
+  --font-headline-bold-24: 700 24px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-subheadline-regular-20: 400 20px/1.4 'SheLeeOkSun', 'Pretendard', cursive;
+  --font-subheadline-bold-20: 700 20px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-body-regular-16: 400 16px/1.4 'Pretendard', system-ui, sans-serif;
+  --font-body-bold-16: 700 16px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-bodysmall-regular-14: 400 14px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-bodysmall-semibold-14: 600 14px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-footnote-regular-13: 400 13px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-footnote-semibold-13: 600 13px/1.2 'Pretendard', system-ui, sans-serif;
+  --font-caption-regular-12: 400 12px/1.2 'Pretendard', system-ui, sans-serif;
+}
+
+/* ── 텍스트 클래스: <p class="text-body-regular-16"> ── */
+.text-hero-regular-72 { font: var(--font-hero-regular-72); }
+.text-hero-her-regular-72 { font: var(--font-hero-her-regular-72); }
+.text-hero-bold-72 { font: var(--font-hero-bold-72); }
+.text-title-regular-48 { font: var(--font-title-regular-48); }
+.text-title-bold-48 { font: var(--font-title-bold-48); }
+.text-subtitle-her-regular-32 { font: var(--font-subtitle-her-regular-32); }
+.text-subtitle-regular-32 { font: var(--font-subtitle-regular-32); }
+.text-subtitle-bold-32 { font: var(--font-subtitle-bold-32); }
+.text-headline-regular-24 { font: var(--font-headline-regular-24); }
+.text-headline-her-regular-24 { font: var(--font-headline-her-regular-24); }
+.text-headline-bold-24 { font: var(--font-headline-bold-24); }
+.text-subheadline-regular-20 { font: var(--font-subheadline-regular-20); }
+.text-subheadline-bold-20 { font: var(--font-subheadline-bold-20); }
+.text-body-regular-16 { font: var(--font-body-regular-16); }
+.text-body-bold-16 { font: var(--font-body-bold-16); }
+.text-bodysmall-regular-14 { font: var(--font-bodysmall-regular-14); }
+.text-bodysmall-semibold-14 { font: var(--font-bodysmall-semibold-14); }
+.text-footnote-regular-13 { font: var(--font-footnote-regular-13); }
+.text-footnote-semibold-13 { font: var(--font-footnote-semibold-13); }
+.text-caption-regular-12 { font: var(--font-caption-regular-12); }
