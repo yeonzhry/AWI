@@ -6,7 +6,7 @@ const photoFiles = require.context("../assets", true, /\.(jpe?g|png|webp)$/i);
 
 // ("kim-uigyeong", 1918) → 사진 경로, 없으면 null
 export function getPhoto(personId, year) {
-  const pattern = new RegExp(`^\\.\/${personId}\/${year}\\.(jpe?g|png|webp)$`, "i");
+  const pattern = new RegExp(`^\\./${personId}/${year}\\.(jpe?g|png|webp)$`, "i");
   const match = photoFiles.keys().find((key) => pattern.test(key));
   return match ? photoFiles(match) : null;
 }
